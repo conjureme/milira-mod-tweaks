@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <AlienRace.AlienBackstoryDef ParentName="Milira_ImperiumBaseBackstory">
+    <defName>MiliraExpedition_Backstory_GreyWitch</defName>
+    <title>Milira Witch-Veteran</title>
+    <titleShort>Witch-Veteran</titleShort>
+    <description>[PAWN_nameDef]</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>6</Shooting>
+      <Melee>8</Melee>
+      <Crafting>6</Crafting>
+      <Intellectual>4</Intellectual>
+    </skillGains>
+    <spawnCategories>
+      <li>MiliraExpedition_GreyWitch</li>
+    </spawnCategories>
+    <disallowedTraitsChance>
+      <li>
+        <defName>Jealous</defName>
+      </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+      <li>
+        <defName>MiliraGreyWitch</defName>
+        <chance>100</chance>
+      </li>
+    </forcedTraitsChance>
+    <possessions>
+    </possessions>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="Milira_ImperiumBaseBackstory">
+    <defName>MiliraExpedition_Backstory_Observer</defName>
+    <title>Milira Chrono-Observer</title>
+    <titleShort>Chrono-Observer</titleShort>
+    <description>[PAWN_nameDef]</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Intellectual>10</Intellectual>
+      <Medicine>4</Medicine>
+      <Social>2</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>MiliraExpedition_Observer</li>
+    </spawnCategories>
+    <disallowedTraitsChance>
+      <li>
+        <defName>Jealous</defName>
+      </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+      <li>
+        <defName>MiliraObserver</defName>
+        <chance>100</chance>
+      </li>
+    </forcedTraitsChance>
+    <possessions>
+    </possessions>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="Milira_ImperiumBaseBackstory">
+    <defName>MiliraExpedition_Backstory_UltimateChef</defName>
+    <title>Milira Master Chef</title>
+    <titleShort>Master Chef</titleShort>
+    <description>[PAWN_nameDef]</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Cooking>8</Cooking>
+      <Melee>6</Melee>
+      <Shooting>4</Shooting>
+      <Social>4</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>MiliraExpedition_UltimateChef</li>
+    </spawnCategories>
+    <disallowedTraitsChance>
+      <li>
+        <defName>Jealous</defName>
+      </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+      <li>
+        <defName>MiliraGeniusChefII</defName>
+        <chance>100</chance>
+      </li>
+    </forcedTraitsChance>
+    <possessions>
+    </possessions>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="Milira_ImperiumBaseBackstory">
+    <defName>MiliraExpedition_Backstory_Inventor</defName>
+    <title>Milira Fleet Inventor</title>
+    <titleShort>Fleet Inventor</titleShort>
+    <description>[PAWN_nameDef]</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Crafting>8</Crafting>
+      <Construction>6</Construction>
+      <Intellectual>8</Intellectual>
+    </skillGains>
+    <spawnCategories>
+      <li>MiliraExpedition_Inventor</li>
+    </spawnCategories>
+    <disallowedTraitsChance>
+      <li>
+        <defName>Jealous</defName>
+      </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+      <li>
+        <defName>MiliraInventor</defName>
+        <chance>100</chance>
+      </li>
+    </forcedTraitsChance>
+    <possessions>
+    </possessions>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="Milira_ImperiumBaseBackstory">
+    <defName>MiliraExpedition_Backstory_Psyker</defName>
+    <title>Milira Latent Psion</title>
+    <titleShort>Latent Psion</titleShort>
+    <description>[PAWN_nameDef]</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>4</Melee>
+      <Social>4</Social>
+      <Intellectual>4</Intellectual>
+      <Medicine>2</Medicine>
+    </skillGains>
+    <spawnCategories>
+      <li>MiliraExpedition_Psyker</li>
+    </spawnCategories>
+    <disallowedTraitsChance>
+      <li>
+        <defName>Jealous</defName>
+      </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+      <li>
+        <defName>MiliraPsyker</defName>
+        <chance>100</chance>
+      </li>
+    </forcedTraitsChance>
+    <possessions>
+    </possessions>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="Milira_ImperiumBaseBackstory">
+    <defName>MiliraExpedition_Backstory_ChosenOne</defName>
+    <title>Milira Arch-Psycaster</title>
+    <titleShort>Arch-Psycaster</titleShort>
+    <description>[PAWN_nameDef]</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Social>4</Social>
+      <Intellectual>6</Intellectual>
+      <Medicine>4</Medicine>
+      <Melee>4</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>MiliraExpedition_ChosenOne</li>
+    </spawnCategories>
+    <disallowedTraitsChance>
+      <li>
+        <defName>Jealous</defName>
+      </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+      <li>
+        <defName>MiliraChosenII</defName>
+        <chance>100</chance>
+      </li>
+    </forcedTraitsChance>
+    <possessions>
+    </possessions>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="Milira_ImperiumBaseBackstory">
+    <defName>MiliraExpedition_Backstory_DarkChosen</defName>
+    <title>Milira Void-Touched</title>
+    <titleShort>Void-Touched</titleShort>
+    <description>[PAWN_nameDef]</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>6</Melee>
+      <Shooting>4</Shooting>
+      <Intellectual>4</Intellectual>
+      <Social>2</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>MiliraExpedition_DarkChosen</li>
+    </spawnCategories>
+    <disallowedTraitsChance>
+      <li>
+        <defName>Jealous</defName>
+      </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+      <li>
+        <defName>MiliraDarkChosen</defName>
+        <chance>100</chance>
+      </li>
+    </forcedTraitsChance>
+    <possessions>
+    </possessions>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef ParentName="Milira_ImperiumBaseBackstory">
+    <defName>MiliraExpedition_Backstory_Painter</defName>
+    <title>Milira Wandering Painter</title>
+    <titleShort>Wandering Painter</titleShort>
+    <description>[PAWN_nameDef]</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Artistic>8</Artistic>
+      <Social>4</Social>
+      <Intellectual>4</Intellectual>
+      <Crafting>4</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>MiliraExpedition_Painter</li>
+    </spawnCategories>
+    <disallowedTraitsChance>
+      <li>
+        <defName>Jealous</defName>
+      </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+      <li>
+        <defName>MiliraTravelingPainter</defName>
+        <chance>100</chance>
+      </li>
+    </forcedTraitsChance>
+    <possessions>
+    </possessions>
+  </AlienRace.AlienBackstoryDef>
+
+</Defs>
