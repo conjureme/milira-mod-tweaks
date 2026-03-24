@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>MiliraTweaks</name>
+  <author>tyster</author>
+  <packageId>tyster.MiliraTweaks</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modVersion>1.0.0</modVersion>
+  <description>various Milira tweaks and additions</description>
+  <modDependencies>
+    <li>
+      <packageId>ancot.milirarace</packageId>
+      <displayName>Milira Race</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3256974620</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>ariandel.miliraimperium</packageId>
+      <displayName>Milira Faction: Milira Imperium</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3588393755</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>ancot.milirarace</li>
+    <li>ariandel.miliraimperium</li>
+  </loadAfter>
+</ModMetaData>
