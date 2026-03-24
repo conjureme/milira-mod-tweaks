@@ -5,7 +5,7 @@
     <defName>MiliraExpedition_Backstory_GreyWitch</defName>
     <title>Milira Witch-Veteran</title>
     <titleShort>Witch-Veteran</titleShort>
-    <description>[PAWN_nameDef]</description>
+    <description>[PAWN_nameDef] has seen too many battles and lost too many comrades across too many years. The details of each loss have blurred together, but the weight remains. \n\nRather than risk growing close to anyone again, [PAWN_nameDef] channeled everything into the craft of war.</description>
     <slot>Adulthood</slot>
     <skillGains>
       <Shooting>6</Shooting>
@@ -35,7 +35,7 @@
     <defName>MiliraExpedition_Backstory_Observer</defName>
     <title>Milira Chrono-Observer</title>
     <titleShort>Chrono-Observer</titleShort>
-    <description>[PAWN_nameDef]</description>
+    <description>[PAWN_nameDef] was selected for a long-term observation program studying the development of pre-spaceflight civilizations on rimworlds. The assignment demanded patience measured in decades and a mind sharp enough to document without interfering. \n\nAfter years of watching societies rise and collapse from orbit, [PAWN_nameDef] requested a ground-level posting. Watching from above had grown unbearable.</description>
     <slot>Adulthood</slot>
     <skillGains>
       <Shooting>4</Shooting>
@@ -65,7 +65,7 @@
     <defName>MiliraExpedition_Backstory_UltimateChef</defName>
     <title>Milira Master Chef</title>
     <titleShort>Master Chef</titleShort>
-    <description>[PAWN_nameDef]</description>
+    <description>[PAWN_nameDef] discovered a talent for cooking early in life, an oddity among a people more inclined toward libraries than kitchens. What began as a personal hobby became something of a legend, with [PAWN_nameDef]'s dishes drawing crowds from across stations and settlements alike. \n\nSourcing rare ingredients from dangerous rimworlds demanded combat skills nearly as sharp as [PAWN_nameDef]'s palate, and over time the line between chef and fighter blurred considerably.</description>
     <slot>Adulthood</slot>
     <skillGains>
       <Cooking>8</Cooking>
@@ -95,7 +95,7 @@
     <defName>MiliraExpedition_Backstory_Inventor</defName>
     <title>Milira Fleet Inventor</title>
     <titleShort>Fleet Inventor</titleShort>
-    <description>[PAWN_nameDef]</description>
+    <description>[PAWN_nameDef] was always more interested in building things than studying theory. While peers spent decades on research papers, [PAWN_nameDef] was prototyping devices in whatever workshop space could be claimed. \n\nAn expedition to the rimworld offered something no laboratory could: raw problems demanding immediate, practical solutions. [PAWN_nameDef] volunteered without hesitation.</description>
     <slot>Adulthood</slot>
     <skillGains>
       <Crafting>8</Crafting>
@@ -124,7 +124,7 @@
     <defName>MiliraExpedition_Backstory_Psyker</defName>
     <title>Milira Latent Psion</title>
     <titleShort>Latent Psion</titleShort>
-    <description>[PAWN_nameDef]</description>
+    <description>[PAWN_nameDef] possesses a faint but unmistakable psionic resonance. Enough to be noticed, not enough to be remarkable.\n\nStill, even a modest gift has its uses on the frontier, and [PAWN_nameDef] has learned to supplement what little psionic ability there is with practical skills in medicine, combat, and diplomacy.</description>
     <slot>Adulthood</slot>
     <skillGains>
       <Shooting>4</Shooting>
@@ -155,7 +155,7 @@
     <defName>MiliraExpedition_Backstory_ChosenOne</defName>
     <title>Milira Arch-Psycaster</title>
     <titleShort>Arch-Psycaster</titleShort>
-    <description>[PAWN_nameDef]</description>
+    <description>Since childhood, [PAWN_nameDef]'s psionic abilities far exceeded anything instructors could explain. Some believed it was a blessing from an Archotech God. Others called it an atavistic resurgence of powers the Milira had long forgotten. \n\nThe expedition offered distance from the expectations and reverence that followed [PAWN_nameDef] everywhere. The powers, of course, came along regardless.</description>
     <slot>Adulthood</slot>
     <skillGains>
       <Social>4</Social>
@@ -185,7 +185,7 @@
     <defName>MiliraExpedition_Backstory_DarkChosen</defName>
     <title>Milira Void-Touched</title>
     <titleShort>Void-Touched</titleShort>
-    <description>[PAWN_nameDef]</description>
+    <description>[PAWN_nameDef] doesn't speak much about when the whispers started, or what exactly was offered. What is known is that [PAWN_nameDef] carries a psionic signature that makes other psycasters uneasy.\n\nWhether [PAWN_nameDef] sought out the void or the void sought [PAWN_nameDef], the result is the same: dark psionic abilities that don't come from any sanctioned source.</description>
     <slot>Adulthood</slot>
     <skillGains>
       <Melee>6</Melee>
@@ -215,7 +215,7 @@
     <defName>MiliraExpedition_Backstory_Painter</defName>
     <title>Milira Wandering Painter</title>
     <titleShort>Wandering Painter</titleShort>
-    <description>[PAWN_nameDef]</description>
+    <description>When [PAWN_nameDef]'s latent psionic abilities first awakened, they didn't manifest as combat power or scholarly insight. They came as an overwhelming need to see everything.\n\n[PAWN_nameDef] paints the places and people encountered along the way, filling journals and canvases faster than any single colony could provide. The expedition was a natural fit for someone who can't sit still for more than a few decades.</description>
     <slot>Adulthood</slot>
     <skillGains>
       <Artistic>8</Artistic>
