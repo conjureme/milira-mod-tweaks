@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ScenarioDef ParentName="ScenarioBase">
+    <defName>Milira_Expedition</defName>
+    <label>Milira Expedition</label>
+    <description>The two of you wake up to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn completely apart. Some time later, you land on this unknown rimworld.</description>
+    <scenario>
+      <summary>Two crashlanded Milira expeditionaries.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>Milira_ExpeditionPlayerFaction</factionDef>
+      </playerFaction>
+      <parts>
+
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+          <def>ConfigurePawnsKindDefs</def>
+          <pawnChoiceCount>8</pawnChoiceCount>
+          <leftBehindPawnKind>Milira_Expeditionary</leftBehindPawnKind>
+          <kindCounts>
+            <li>
+              <kindDef>Milira_Expeditionary</kindDef>
+              <count>2</count>
+              <requiredAtStart>true</requiredAtStart>
+            </li>
+          </kindCounts>
+        </li>
+
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>DropPods</method>
+        </li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>800</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Milira_TravellerFood</thingDef>
+          <count>100</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ComponentIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Milira_PlasmaPistol</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Milira_SingleHandblade</thingDef>
+        </li>
+
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Steel</thingDef>
+          <count>450</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>300</count>
+        </li>
+
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>ShipChunk</thingDef>
+          <allowRoofed>false</allowRoofed>
+          <count>3</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>Steel</thingDef>
+          <count>720</count>
+        </li>
+
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>The two of you wake up to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn completely apart. Some time later, you land on this unknown rimworld. Perhaps this is a good place for an outpost.</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+
+      </parts>
+    </scenario>
+  </ScenarioDef>
+
+</Defs>
