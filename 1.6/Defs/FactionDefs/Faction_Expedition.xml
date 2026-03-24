@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>Milira_ExpeditionPlayerFaction</defName>
+    <label>Milira Expedition Colony</label>
+    <description>A small Milira expedition colony.</description>
+    <categoryTag>Milira_ExpeditionPlayerFaction</categoryTag>
+    <colorSpectrum>
+      <li>(246,228,165)</li>
+    </colorSpectrum>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Milira_Expeditionary</basicMemberKind>
+    <pawnSingular>Milira expeditionary</pawnSingular>
+    <pawnsPlural>Milira expeditionaries</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <allowedCultures>
+      <li>MiliraCulture</li>
+    </allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+    </disallowedMemes>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Milira_ImperiumGeneral</li>
+        </categories>
+        <commonality>1</commonality>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>Milira/Faction/Faction_Icon</factionIconPath>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <apparelStuffFilter>
+      <stuffCategoriesToAllow>
+        <li>Metallic</li>
+        <li>Fabric</li>
+      </stuffCategoriesToAllow>
+      <disallowedThingDefs>
+        <li>Synthread</li>
+        <li>Hyperweave</li>
+        <li>Silver</li>
+        <li>Gold</li>
+        <li>Uranium</li>
+      </disallowedThingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+
+</Defs>
