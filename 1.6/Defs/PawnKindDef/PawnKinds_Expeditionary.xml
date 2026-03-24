@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnKindDef ParentName="Milira_PawnBase">
+    <defName>Milira_Expeditionary</defName>
+    <label>Milira Expeditionary</label>
+    <combatPower>100</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <factionLeader>false</factionLeader>
+    <apparelMoney>
+      <min>1200</min>
+      <max>2000</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Milira_Daily</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelRequired>
+      <li>Milira_Cloak</li>
+    </apparelRequired>
+    <backstoryFiltersOverride>
+      <li>
+        <categoriesChildhood>
+          <li>Milira_ImperiumGeneral</li>
+        </categoriesChildhood>
+        <categoriesAdulthood>
+          <li>Milira_ImperiumGeneral</li>
+          <li>Milira_ImperiumShadowGuard</li>
+          <li>Milira_ImperiumSpaceMarine</li>
+          <li>Milira_VarangianGuard</li>
+          <li>Milira_Consul</li>
+          <li>Milira_Navigator</li>
+          <li>Milira_CradolMercenary</li>
+          <li>Milira_PrivateerCaptain</li>
+          <li>Milira_Capitalist</li>
+          <li>Milira_Privateer</li>
+          <li>MiliraImperium_SpecialOathKnight</li>
+        </categoriesAdulthood>
+      </li>
+    </backstoryFiltersOverride>
+  </PawnKindDef>
+
+</Defs>
