@@ -36,6 +36,14 @@
           <li>Milira_Capitalist</li>
           <li>Milira_Privateer</li>
           <li>MiliraImperium_SpecialOathKnight</li>
+          <li>MiliraExpedition_GreyWitch</li>
+          <li>MiliraExpedition_Observer</li>
+          <li>MiliraExpedition_UltimateChef</li>
+          <li>MiliraExpedition_Inventor</li>
+          <li>MiliraExpedition_Psyker</li>
+          <li>MiliraExpedition_ChosenOne</li>
+          <li>MiliraExpedition_DarkChosen</li>
+          <li>MiliraExpedition_Painter</li>
         </categoriesAdulthood>
       </li>
     </backstoryFiltersOverride>
