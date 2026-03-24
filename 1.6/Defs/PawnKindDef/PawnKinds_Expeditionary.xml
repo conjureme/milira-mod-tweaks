@@ -22,9 +22,11 @@
     <backstoryFiltersOverride>
       <li>
         <categoriesChildhood>
+          <li>Milira_General</li>
           <li>Milira_ImperiumGeneral</li>
         </categoriesChildhood>
         <categoriesAdulthood>
+          <li>Milira_General</li>
           <li>Milira_ImperiumGeneral</li>
           <li>Milira_ImperiumShadowGuard</li>
           <li>Milira_ImperiumSpaceMarine</li>
