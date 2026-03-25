@@ -57,7 +57,7 @@
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>Milira_SingleHandblade</thingDef>
+          <thingDef>Milira_Glaive</thingDef>
         </li>
 
         <li Class="ScenPart_ScatterThingsNearPlayerStart">
