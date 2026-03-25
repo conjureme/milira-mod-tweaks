@@ -33,6 +33,14 @@
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
     <factionNameMaker>NamerFactionOutlander</factionNameMaker>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <!-- start with default "classic" research, leaving no research since milira can research extremely fast. -->
+    <!-- <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags> -->
     <apparelStuffFilter>
       <stuffCategoriesToAllow>
         <li>Metallic</li>
