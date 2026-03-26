@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <QuestScriptDef>
+    <defName>MiliraExpeditionaryJoins</defName>
+    <autoAccept>true</autoAccept>
+    <defaultHidden>true</defaultHidden>
+    <isRootSpecial>true</isRootSpecial>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName->Milira Expeditionary joins</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription-></li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Root_WandererJoin_WalkIn" />
+  </QuestScriptDef>
+
+  <IncidentDef>
+    <defName>MiliraExpeditionaryJoin</defName>
+    <label>milira expeditionary join</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>MiliraTweaks.IncidentWorker_MiliraExpeditionaryJoin</workerClass>
+    <questScriptDef>MiliraExpeditionaryJoins</questScriptDef>
+    <baseChance>0.4</baseChance>
+    <pawnKind>Milira_Expeditionary</pawnKind>
+    <pawnFixedGender>Female</pawnFixedGender>
+    <populationEffect>IncreaseEasy</populationEffect>
+  </IncidentDef>
+
+</Defs>
