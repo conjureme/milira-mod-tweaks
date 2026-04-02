@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraitDef[defName="MiliraPsyker"]/degreeDatas/li/statOffsets</xpath>
+    <value>
+      <PsychicSensitivity>1.0</PsychicSensitivity>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraitDef[defName="MiliraChosen"]/degreeDatas/li/statOffsets</xpath>
+    <value>
+      <PsychicSensitivity>3.0</PsychicSensitivity>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraitDef[defName="MiliraDarkChosen"]/degreeDatas/li/statOffsets</xpath>
+    <value>
+      <PsychicSensitivity>1.0</PsychicSensitivity>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraitDef[defName="MiliraChosenII"]/degreeDatas/li/statOffsets</xpath>
+    <value>
+      <PsychicSensitivity>5.0</PsychicSensitivity>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraitDef[defName="MiliraVoidWalker"]/degreeDatas/li[degree="0"]/statOffsets</xpath>
+    <value>
+      <PsychicSensitivity>10.0</PsychicSensitivity>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraitDef[defName="MiliraVoidWalker"]/degreeDatas/li[degree="1"]/statOffsets</xpath>
+    <value>
+      <PsychicSensitivity>10.0</PsychicSensitivity>
+    </value>
+  </Operation>
+
+</Patch>
