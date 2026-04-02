@@ -21,7 +21,24 @@ namespace MiliraTweaks
 
         static MiliraTweaksMod()
         {
-            new Harmony("tyster.MiliraTweaks").PatchAll();
+            var harmony = new Harmony("tyster.MiliraTweaks");
+            harmony.PatchAll();
+
+            var traitLockType = AccessTools.TypeByName("AriandelLibrary.GameComponent_AL_Polling");
+            if (traitLockType == null)
+            {
+                Log.Warning("[MiliraTweaks] AriandelLibrary.GameComponent_AL_Polling not found - trait lock patch skipped");
+                return;
+            }
+
+            var checkMethod = AccessTools.Method(traitLockType, "CheckAndRemoveTraits");
+            if (checkMethod == null)
+            {
+                Log.Warning("[MiliraTweaks] CheckAndRemoveTraits not found on GameComponent_AL_Polling - trait lock patch skipped");
+                return;
+            }
+
+            harmony.Patch(checkMethod, prefix: new HarmonyMethod(typeof(Patch_TraitLock_CheckAndRemoveTraits), nameof(Patch_TraitLock_CheckAndRemoveTraits.Prefix)));
         }
 
         public static bool IsWhitelisted(Pawn pawn)
@@ -74,16 +91,9 @@ namespace MiliraTweaks
         }
     }
 
-    [HarmonyPatch]
     public static class Patch_TraitLock_CheckAndRemoveTraits
     {
-        static System.Reflection.MethodBase TargetMethod()
-        {
-            var type = AccessTools.TypeByName("AriandelLibrary.GameComponent_AL_TraitLock");
-            return AccessTools.Method(type, "CheckAndRemoveTraits");
-        }
-
-        static bool Prefix(Pawn p)
+        public static bool Prefix(Pawn p)
         {
             if (MiliraTweaksMod.IsWhitelisted(p))
                 return false;
